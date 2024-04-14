@@ -25,3 +25,7 @@
 /Users/damianamalraj/Documents/Repos/AI-Travel-Assistant/API/obj/Debug/net6.0/API.pdb
 /Users/damianamalraj/Documents/Repos/AI-Travel-Assistant/API/obj/Debug/net6.0/API.genruntimeconfig.cache
 /Users/damianamalraj/Documents/Repos/AI-Travel-Assistant/API/obj/Debug/net6.0/ref/API.dll
+/Users/damianamalraj/Documents/Repos/AI-Travel-Assistant/API/bin/Debug/net6.0/questions.json
+/Users/damianamalraj/Documents/Repos/AI-Travel-Assistant/API/bin/Debug/net6.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/damianamalraj/Documents/Repos/AI-Travel-Assistant/API/bin/Debug/net6.0/Newtonsoft.Json.dll
+/Users/damianamalraj/Documents/Repos/AI-Travel-Assistant/API/bin/Debug/net6.0/OpenAI_API.dll

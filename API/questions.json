@@ -1,0 +1,236 @@
+[
+  {
+    "questionId": "1",
+    "text": "Would you like to choose a destination or should we pick one for you?",
+    "category": "Initial",
+    "options": [
+      {
+        "optionText": "Choose my destination",
+        "nextQuestionId": "2"
+      },
+      {
+        "optionText": "Surprise me",
+        "nextQuestionId": "3"
+      }
+    ]
+  },
+  {
+    "questionId": "2",
+    "text": "Where would you like to travel?",
+    "category": "Destination",
+    "options": [
+      {
+        "optionText": "Enter destination",
+        "nextQuestionId": "4"
+      }
+    ]
+  },
+  {
+    "questionId": "3",
+    "text": "Do you prefer a warm or cold climate?",
+    "category": "Random",
+    "options": [
+      {
+        "optionText": "Warm",
+        "nextQuestionId": "4"
+      },
+      {
+        "optionText": "Cold",
+        "nextQuestionId": "4"
+      }
+    ]
+  },
+  {
+    "questionId": "4",
+    "text": "What is your budget for this trip?",
+    "category": "Budget",
+    "options": [
+      {
+        "optionText": "Less than $1000",
+        "nextQuestionId": "5"
+      },
+      {
+        "optionText": "$1000 to $3000",
+        "nextQuestionId": "5"
+      },
+      {
+        "optionText": "More than $3000",
+        "nextQuestionId": "5"
+      }
+    ]
+  },
+  {
+    "questionId": "5",
+    "text": "What type of experience are you looking for?",
+    "category": "Experience Type",
+    "options": [
+      {
+        "optionText": "Cultural",
+        "nextQuestionId": "6"
+      },
+      {
+        "optionText": "Adventure",
+        "nextQuestionId": "6"
+      },
+      {
+        "optionText": "Relaxation",
+        "nextQuestionId": "6"
+      },
+      {
+        "optionText": "Shopping",
+        "nextQuestionId": "6"
+      }
+    ]
+  },
+  {
+    "questionId": "6",
+    "text": "From which city will you be departing?",
+    "category": "Departure",
+    "options": [
+      {
+        "optionText": "Enter city",
+        "nextQuestionId": "7"
+      }
+    ]
+  },
+  {
+    "questionId": "7",
+    "text": "What is your desired start date for the trip?",
+    "category": "Start Date",
+    "options": [
+      {
+        "optionText": "Select date",
+        "nextQuestionId": "8"
+      }
+    ]
+  },
+  {
+    "questionId": "8",
+    "text": "What is your end date for the trip?",
+    "category": "End Date",
+    "options": [
+      {
+        "optionText": "Select date",
+        "nextQuestionId": "9"
+      }
+    ]
+  },
+  {
+    "questionId": "9",
+    "text": "Would you like suggestions for flights, accommodations, restaurants, or attractions?",
+    "category": "Suggestion Type",
+    "options": [
+      {
+        "optionText": "Flights",
+        "nextQuestionId": "10"
+      },
+      {
+        "optionText": "Accommodations",
+        "nextQuestionId": "11"
+      },
+      {
+        "optionText": "Restaurants",
+        "nextQuestionId": "12"
+      },
+      {
+        "optionText": "Attractions",
+        "nextQuestionId": "13"
+      }
+    ]
+  },
+  {
+    "questionId": "10",
+    "text": "Here are some flight options based on your preferences. Are these satisfactory?",
+    "category": "Flights",
+    "options": [
+      {
+        "optionText": "Yes, they're great",
+        "nextQuestionId": "14"
+      },
+      {
+        "optionText": "No, show more options",
+        "nextQuestionId": "10"
+      }
+    ]
+  },
+  {
+    "questionId": "11",
+    "text": "Select the type of accommodation you prefer:",
+    "category": "Accommodations",
+    "options": [
+      {
+        "optionText": "Hotel",
+        "nextQuestionId": "14"
+      },
+      {
+        "optionText": "Hostel",
+        "nextQuestionId": "14"
+      },
+      {
+        "optionText": "Apartment",
+        "nextQuestionId": "14"
+      }
+    ]
+  },
+  {
+    "questionId": "12",
+    "text": "What type of dining experience are you looking for?",
+    "category": "Restaurants",
+    "options": [
+      {
+        "optionText": "Local cuisine",
+        "nextQuestionId": "14"
+      },
+      {
+        "optionText": "Fine dining",
+        "nextQuestionId": "14"
+      },
+      {
+        "optionText": "Cafes",
+        "nextQuestionId": "14"
+      },
+      {
+        "optionText": "Street food",
+        "nextQuestionId": "14"
+      }
+    ]
+  },
+  {
+    "questionId": "13",
+    "text": "What kind of attractions are you interested in visiting?",
+    "category": "Attractions",
+    "options": [
+      {
+        "optionText": "Museums",
+        "nextQuestionId": "14"
+      },
+      {
+        "optionText": "Parks",
+        "nextQuestionId": "14"
+      },
+      {
+        "optionText": "Historic sites",
+        "nextQuestionId": "14"
+      },
+      {
+        "optionText": "Theme parks",
+        "nextQuestionId": "14"
+      }
+    ]
+  },
+  {
+    "questionId": "14",
+    "text": "Would you like to finalize your plans or need help with anything else?",
+    "category": "Finalize",
+    "options": [
+      {
+        "optionText": "Finalize plans",
+        "nextQuestionId": null
+      },
+      {
+        "optionText": "Need help with other arrangements",
+        "nextQuestionId": "9"
+      }
+    ]
+  }
+]
